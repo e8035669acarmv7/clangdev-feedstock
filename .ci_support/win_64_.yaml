@@ -1,3 +1,5 @@
+c_stdlib:
+- vs
 channel_sources:
 - conda-forge
 channel_targets:
@@ -7,12 +9,12 @@ cxx_compiler:
 libclang_soversion:
 - '13'
 libxml2:
-- '2.11'
+- '2'
 target_platform:
 - win-64
 variant:
 - default
 zlib:
-- '1.2'
+- '1'
 zstd:
 - '1.5'
