@@ -1,3 +1,7 @@
+c_stdlib:
+- sysroot
+c_stdlib_version:
+- '2.17'
 cdt_name:
 - cos7
 cdt_arch:
@@ -15,11 +19,14 @@ docker_image:
 libclang_soversion:
 - '13'
 libxml2:
-- '2.11'
+- '2'
 target_platform:
 - linux-armv7l
 variant:
 - default
+zip_keys:
+- - c_stdlib_version
+  - cdt_name
 zlib:
 - '1.2'
 zstd:
